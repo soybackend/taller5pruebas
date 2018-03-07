@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lytRoute" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:gravity="top" android:id="@id/scrOdMain" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="false" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/layOdContent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/txtOdlblOrigen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultPadding" android:text="@string/route.start" />
+                <TextView android:textColor="@android:color/black" android:id="@id/txtOdOri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="@dimen/defaultPadding" android:layout_toRightOf="@id/txtOdlblOrigen" />
+                <TextView android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/txtOdlblDestino" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultPadding" android:text="@string/route.end" android:layout_below="@id/txtOdlblOrigen" />
+                <TextView android:textColor="@android:color/black" android:id="@id/txtOdDesti" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="@dimen/defaultPadding" android:layout_toRightOf="@id/txtOdlblDestino" android:layout_below="@id/txtOdlblOrigen" />
+                <LinearLayout android:orientation="vertical" android:id="@id/lytImg" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultPadding" android:layout_below="@id/txtOdlblDestino" />
+                <TextView android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/txtOdlblFecha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultPadding" android:text="@string/route.day.hour" android:layout_below="@id/lytImg" />
+                <TextView android:textColor="@android:color/black" android:id="@id/txtOdFec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="@dimen/defaultPadding" android:layout_toRightOf="@id/txtOdlblFecha" android:layout_below="@id/lytImg" />
+                <TextView android:textStyle="bold" android:textColor="@color/accentColor" android:id="@id/imgCalendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:text="@string/route.change" android:layout_toRightOf="@id/txtOdFec" android:layout_alignTop="@id/txtOdFec" android:onClick="cambiarHora" android:contentDescription="@string/cambiar_hora" />
+                <LinearLayout android:orientation="vertical" android:id="@id/lytImg2" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/defaultPadding" android:layout_below="@id/txtOdlblFecha" />
+                <LinearLayout android:orientation="vertical" android:id="@id/lytContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/lytImg2" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/primaryColor" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="Carreras Recientes" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/imgClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_below="@id/tvTitle" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/tvNotFound" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No se encontraron carreras recientes" android:layout_below="@id/tvTitle" android:layout_centerHorizontal="true" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/darker_gray" android:dividerHeight="1.0dip" android:layout_below="@id/tvTitle" />
+</RelativeLayout>

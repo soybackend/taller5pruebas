@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/txtBus" android:background="@android:color/black" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/defaultPadding" android:text="j72" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultPadding" android:layout_toRightOf="@id/txtBus" android:layout_centerVertical="true">
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/black" android:id="@id/txtInfoBus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:text="Bus j72 con destino Las Aguas" />
+            <TextView android:textSize="11.0sp" android:textColor="@android:color/black" android:id="@id/txtInfoParadas" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:text="Test" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

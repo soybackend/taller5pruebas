@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imgLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/rateLike" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:src="@drawable/star_rate" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:src="@drawable/star_rate" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:src="@drawable/star_rate" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:src="@drawable/star_rate" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:src="@drawable/star_rate" />
+    </LinearLayout>
+    <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/rateDesc" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?colorPrimary" android:layout_gravity="right" android:id="@id/tvRateOpt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/rateOpt" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?colorPrimary" android:layout_gravity="right" android:id="@id/tvRateAfter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/rateAfter" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?colorPrimary" android:layout_gravity="right" android:id="@id/tvRateNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/rateNo" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="9.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/txtDias" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:text="L-S" />
+    <View android:background="@color/dia_bckgrnd" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" />
+    <TextView android:textSize="9.0sp" android:textColor="@android:color/black" android:id="@id/txtHoras" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="3.0dip" android:text="04:00 am - 11:59 pm" />
+</LinearLayout>

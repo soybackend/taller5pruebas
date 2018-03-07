@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="anim_duration_long">400</integer>
+    <integer name="appID">1</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="google_play_services_version">11910000</integer>
+    <integer name="gpsDistance">25</integer>
+    <integer name="gpsTimeout">60000</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="minima">4100</integer>
+    <integer name="networkTimeout">10000</integer>
+    <integer name="peatDistance">1000</integer>
+    <integer name="peatonalMUL">1</integer>
+    <integer name="pedidoPuerta">700</integer>
+    <integer name="recargoAeropuerto">4100</integer>
+    <integer name="recargoNocturno">2000</integer>
+    <integer name="recargoTerminal">500</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="sitp_price">2100</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="transbordo">200</integer>
+    <integer name="transferAlertTime">15</integer>
+    <integer name="transferTime">95</integer>
+    <integer name="trasnmilenio_price">2300</integer>
+    <integer name="unitValue">82</integer>
+</resources>

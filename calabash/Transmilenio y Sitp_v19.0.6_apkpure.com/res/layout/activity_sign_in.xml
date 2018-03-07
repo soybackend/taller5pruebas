@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/bigPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+        <RelativeLayout android:background="@color/facebook_authenticate" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_margin="4.0dip" android:layout_weight="1.0">
+            <com.facebook.login.widget.LoginButton android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:layout_centerVertical="true" facebook:com_facebook_confirm_logout="false" facebook:com_facebook_login_text="Conectar" facebook:com_facebook_logout_text="Desconectar" xmlns:facebook="http://schemas.android.com/apk/res-auto" />
+            <com.facebook.login.widget.LoginButton android:id="@id/sign_in_fb_button" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:layout_centerVertical="true" facebook:com_facebook_confirm_logout="false" facebook:com_facebook_login_text="Conectar" facebook:com_facebook_logout_text="Desconectar" xmlns:facebook="http://schemas.android.com/apk/res-auto" />
+        </RelativeLayout>
+        <com.google.android.gms.common.SignInButton android:id="@id/sign_in_go_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <Button android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/defaultPadding" android:layout_marginBottom="@dimen/defaultPadding" android:text="@string/close" android:onClick="closeActivity" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lytBusStops" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ScrollView android:gravity="top" android:id="@id/scrMain" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/layAlContent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textColor="@android:color/black" android:id="@id/txtBrObservaciones" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="@dimen/defaultPadding" android:layout_marginBottom="@dimen/defaultPadding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                            <ImageView android:id="@id/imgOptions" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/mas_opciones" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <com.movilixa.objects.ExpandableHeightGridView android:id="@id/hGrid" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultMiddlePadding" android:listSelector="@android:color/transparent" android:horizontalSpacing="2.0dip" android:verticalSpacing="2.0dip" android:numColumns="2" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/layBrDinContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout android:id="@id/mainTrack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/imgCirculoMap" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/circulo_map" android:layout_centerHorizontal="true" android:onClick="mapRecorrido" android:contentDescription="@string/mapa" />
+            <ImageView android:id="@id/imgPlayTrack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/circulo_play" android:layout_below="@id/imgCirculoMap" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:onClick="monitorearRecorrido" android:contentDescription="@string/rastrear_ruta" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/txtBrlblKmh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="0" android:layout_below="@id/imgCirculoMap" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@android:color/white" android:id="@id/txtKmh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kmh" android:layout_below="@id/txtBrlblKmh" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

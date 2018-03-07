@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lytArrive" android:background="@color/llegada_bckgrnd" android:paddingTop="@dimen/defaultMiddlePadding" android:paddingBottom="@dimen/defaultMiddlePadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultPadding">
+        <ImageView android:id="@id/imgClock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reloj_blanco" android:layout_toLeftOf="@id/tvArrive" />
+        <TextView android:textColor="@android:color/black" android:id="@id/tvArrive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Llegada en 6 minutos" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/infoDriver_bckgrnd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultPadding">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imgDriver" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding" android:src="@drawable/default_driver" android:alpha="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="12.0sp" android:id="@id/tvDriverName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Alejandro Suarez" />
+            <TextView android:textSize="12.0sp" android:id="@id/tvDriverCel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 3204554322" />
+            <TextView android:textSize="12.0sp" android:id="@id/tvDriverPlate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STX 002" />
+            <TextView android:textSize="12.0sp" android:id="@id/tvCod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Codigo de seguridad: 22" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imgCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultPadding" android:src="@drawable/phone" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/imgGps" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultPadding" android:src="@drawable/gps_blanco" />
+</LinearLayout>

@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accept">Aceptar</string>
+    <string name="action_all">Todas</string>
+    <string name="action_facebook">Facebook</string>
+    <string name="action_favorite">Favorito</string>
+    <string name="action_google">Google +</string>
+    <string name="action_gps">GPS</string>
+    <string name="action_in_service">En operación</string>
+    <string name="action_map">Mapa</string>
+    <string name="action_refresh">Recargar</string>
+    <string name="action_reportar">Reportar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_twitter">Twitter</string>
+    <string name="add">AÑADIR</string>
+    <string name="address">Mueva el mapa para cargar dirección</string>
+    <string name="address.hint">Dirección</string>
+    <string name="admobAppId">ca-app-pub-3916193284422795~1906201417</string>
+    <string name="admobBannerNative">ca-app-pub-3916193284422795/5098041813</string>
+    <string name="admob_advanced">ca-app-pub-3916193284422795/7269620861</string>
+    <string name="admob_interstitial">ca-app-pub-3916193284422795/1333994617</string>
+    <string name="alarm.cancel">¿Desea cancelar la alarma para tiempos de trasbordos?</string>
+    <string name="alarm.enable">¿Desea activar la alarma para tiempos de trasbordos?</string>
+    <string name="alarm.notify">Será notificado cuando resten XXX minutos de trasbordo</string>
+    <string name="alarm.title">Alarma de Tiempo de Transbordo</string>
+    <string name="app_name">Transmilenio y SITP</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="arrive">Llegada en %s minutos</string>
+    <string name="asignar_alarma_transbordos">Asignar alarma para transbordos</string>
+    <string name="backPress">Presione atrás de nuevo para salir</string>
+    <string name="bePremium">Quitar publicidad por un año</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="browser.choose.line">Seleccione Linea</string>
+    <string name="browser.end.station">Ahora seleccione la estación de destino</string>
+    <string name="browser.start.station">Seleccione la estación de origen</string>
+    <string name="browser.tap.station">Presione la estación que desea consultar</string>
+    <string name="browserArea1">"&lt;area shape=\"rect\" coords=\"937, 237, 981, 267\" href=\"http://id156\" />
+&lt;area shape=\"rect\" coords=\"160, 165, 195, 200\" href=\"http://id155\" />
+&lt;area shape=\"rect\" coords=\"35, 166, 84, 205\" href=\"http://id145\" />
+&lt;area shape=\"rect\" coords=\"80, 207, 117, 242\" href=\"http://id30\" />
+&lt;area shape=\"rect\" coords=\"201, 161, 241, 204\" href=\"http://id27\" />
+&lt;area shape=\"rect\" coords=\"275, 205, 315, 248\" href=\"http://id24\" />
+&lt;area shape=\"rect\" coords=\"250, 168, 291, 203\" href=\"http://id25\" />
+&lt;area shape=\"rect\" coords=\"114, 154, 156, 210\" href=\"http://id29\" />
+&lt;area shape=\"rect\" coords=\"164, 207, 206, 247\" href=\"http://id28\" />
+&lt;area shape=\"rect\" coords=\"326, 206, 365, 242\" href=\"http://id22\" />
+&lt;area shape=\"rect\" coords=\"460, 175, 502, 203\" href=\"http://id17\" />
+&lt;area shape=\"rect\" coords=\"429, 205, 461, 243\" href=\"http://id18\" />
+&lt;area shape=\"rect\" coords=\"379, 206, 412, 241\" href=\"http://id20\" />
+&lt;area shape=\"rect\" coords=\"520, 173, 555, 203\" href=\"http://id15\" />
+&lt;area shape=\"rect\" coords=\"569, 172, 609, 206\" href=\"http://id14\" />
+&lt;area shape=\"rect\" coords=\"604, 207, 645, 238\" href=\"http://id13\" />
+&lt;area shape=\"rect\" coords=\"631, 173, 665, 204\" href=\"http://id12\" />
+&lt;area shape=\"rect\" coords=\"648, 207, 701, 237\" href=\"http://id11\" />
+&lt;area shape=\"rect\" coords=\"681, 170, 718, 206\" href=\"http://id10\" />
+&lt;area shape=\"rect\" coords=\"707, 207, 743, 240\" href=\"http://id9\" />
+&lt;area shape=\"rect\" coords=\"733, 170, 773, 203\" href=\"http://id8\" />
+&lt;area shape=\"rect\" coords=\"756, 203, 791, 239\" href=\"http://id7\" />
+&lt;area shape=\"rect\" coords=\"788, 178, 817, 205\" href=\"http://id6\" />
+&lt;area shape=\"rect\" coords=\"819, 198, 847, 225\" href=\"http://id5\" />
+&lt;area shape=\"rect\" coords=\"865, 165, 893, 208\" href=\"http://id4\" />
+&lt;area shape=\"rect\" coords=\"522, 265, 569, 293\" href=\"http://id45\" />
+&lt;area shape=\"rect\" coords=\"388, 266, 479, 288\" href=\"http://id68\" />
+&lt;area shape=\"rect\" coords=\"347, 175, 393, 205\" href=\"http://id21\" />
+&lt;area shape=\"rect\" coords=\"404, 173, 439, 203\" href=\"http://id19\" />
+&lt;area shape=\"rect\" coords=\"490, 204, 530, 235\" href=\"http://id16\" />
+&lt;area shape=\"rect\" coords=\"895, 203, 921, 243\" href=\"http://id3\" />
+&lt;area shape=\"rect\" coords=\"911, 159, 950, 195\" href=\"http://id69\" />
+&lt;area shape=\"rect\" coords=\"929, 196, 952, 216\" href=\"http://id2\" />
+&lt;area shape=\"rect\" coords=\"955, 193, 982, 235\" href=\"http://id1\" />
+&lt;area shape=\"rect\" coords=\"996, 179, 1025, 214\" href=\"http://id99\" />
+&lt;area shape=\"rect\" coords=\"1055, 178, 1084, 217\" href=\"http://id101\" />
+&lt;area shape=\"rect\" coords=\"1027, 198, 1054, 226\" href=\"http://id100\" />
+&lt;area shape=\"rect\" coords=\"1093, 192, 1188, 211\" href=\"http://id102\" />
+&lt;area shape=\"rect\" coords=\"1116, 213, 1191, 231\" href=\"http://id103\" />
+&lt;area shape=\"rect\" coords=\"1131, 233, 1206, 253\" href=\"http://id104\" />
+&lt;area shape=\"rect\" coords=\"1149, 256, 1225, 276\" href=\"http://id105\" />
+&lt;area shape=\"rect\" coords=\"1175, 279, 1261, 298\" href=\"http://id106\" />
+&lt;area shape=\"rect\" coords=\"1145, 315, 1228, 338\" href=\"http://id107\" />
+&lt;area shape=\"rect\" coords=\"1233, 309, 1268, 344\" href=\"http://id108\" />
+&lt;area shape=\"rect\" coords=\"1271, 322, 1301, 357\" href=\"http://id109\" />
+&lt;area shape=\"rect\" coords=\"1303, 309, 1338, 347\" href=\"http://id110\" />
+&lt;area shape=\"rect\" coords=\"1340, 310, 1387, 361\" href=\"http://id111\" />
+&lt;area shape=\"rect\" coords=\"1181, 93, 1263, 127\" href=\"http://id139\" />
+&lt;area shape=\"rect\" coords=\"1141, 100, 1176, 136\" href=\"http://id138\" />
+&lt;area shape=\"rect\" coords=\"1109, 66, 1140, 115\" href=\"http://id137\" />
+&lt;area shape=\"rect\" coords=\"1077, 102, 1105, 141\" href=\"http://id136\" />
+&lt;area shape=\"rect\" coords=\"1047, 87, 1075, 121\" href=\"http://id135\" />
+&lt;area shape=\"rect\" coords=\"1012, 100, 1046, 132\" href=\"http://id134\" />
+&lt;area shape=\"rect\" coords=\"969, 76, 1010, 115\" href=\"http://id133\" />
+&lt;area shape=\"rect\" coords=\"925, 78, 961, 118\" href=\"http://id132\" />
+&lt;area shape=\"rect\" coords=\"889, 102, 922, 146\" href=\"http://id131\" />
+&lt;area shape=\"rect\" coords=\"850, 77, 881, 117\" href=\"http://id130\" />
+&lt;area shape=\"rect\" coords=\"797, 70, 838, 116\" href=\"http://id140\" />
+&lt;area shape=\"rect\" coords=\"898, 45, 1002, 68\" href=\"http://id152\" />
+&lt;area shape=\"rect\" coords=\"862, 9, 952, 35\" href=\"http://id151\" />
+&lt;area shape=\"rect\" coords=\"747, 8, 858, 34\" href=\"http://id150\" />
+&lt;area shape=\"rect\" coords=\"1190, 359, 1267, 386\" href=\"http://id112\" />
+&lt;area shape=\"rect\" coords=\"1271, 371, 1332, 395\" href=\"http://id113\" />
+&lt;area shape=\"rect\" coords=\"1270, 419, 1356, 456\" href=\"http://id114\" />
+&lt;area shape=\"rect\" coords=\"1122, 561, 1249, 585\" href=\"http://id98\" />
+&lt;area shape=\"rect\" coords=\"1183, 638, 1291, 658\" href=\"http://id141\" />
+&lt;area shape=\"rect\" coords=\"1210, 665, 1280, 683\" href=\"http://id142\" />
+&lt;area shape=\"rect\" coords=\"1230, 685, 1371, 707\" href=\"http://id143\" />
+&lt;area shape=\"rect\" coords=\"1251, 712, 1342, 734\" href=\"http://id144\" />
+&lt;area shape=\"rect\" coords=\"1122, 536, 1205, 556\" href=\"http://id97\" />
+&lt;area shape=\"rect\" coords=\"1123, 504, 1204, 525\" href=\"http://id96\" />
+&lt;area shape=\"rect\" coords=\"1118, 474, 1213, 497\" href=\"http://id95\" />
+&lt;area shape=\"rect\" coords=\"1118, 448, 1214, 469\" href=\"http://id94\" />
+&lt;area shape=\"rect\" coords=\"1121, 428, 1207, 447\" href=\"http://id93\" />
+&lt;area shape=\"rect\" coords=\"1113, 407, 1219, 426\" href=\"http://id92\" />
+&lt;area shape=\"rect\" coords=\"1090, 383, 1187, 405\" href=\"http://id91\" />
+&lt;area shape=\"rect\" coords=\"1070, 363, 1160, 381\" href=\"http://id90\" />
+&lt;area shape=\"rect\" coords=\"1054, 340, 1109, 361\" href=\"http://id89\" />
+&lt;area shape=\"rect\" coords=\"1015, 319, 1052, 360\" href=\"http://id88\" />
+&lt;area shape=\"rect\" coords=\"983, 336, 1013, 372\" href=\"http://id87\" />
+&lt;area shape=\"rect\" coords=\"921, 380, 1020, 401\" href=\"http://id73\" />
+&lt;area shape=\"rect\" coords=\"918, 405, 1016, 426\" href=\"http://id74\" />
+&lt;area shape=\"rect\" coords=\"916, 430, 994, 448\" href=\"http://id75\" />
+&lt;area shape=\"rect\" coords=\"919, 456, 1013, 474\" href=\"http://id76\" />
+&lt;area shape=\"rect\" coords=\"927, 476, 1015, 501\" href=\"http://id77\" />
+&lt;area shape=\"rect\" coords=\"941, 504, 1027, 521\" href=\"http://id78\" />
+&lt;area shape=\"rect\" coords=\"966, 526, 1043, 543\" href=\"http://id79\" />
+&lt;area shape=\"rect\" coords=\"984, 546, 1101, 567\" href=\"http://id80\" />
+&lt;area shape=\"rect\" coords=\"965, 578, 1045, 601\" href=\"http://id81\" />
+&lt;area shape=\"rect\" coords=\"1033, 603, 1108, 631\" href=\"http://id82\" />
+&lt;area shape=\"rect\" coords=\"946, 634, 1051, 657\" href=\"http://id83\" />
+&lt;area shape=\"rect\" coords=\"984, 662, 1056, 696\" href=\"http://id84\" />
+&lt;area shape=\"rect\" coords=\"1058, 666, 1096, 704\" href=\"http://id85\" />
+&lt;area shape=\"rect\" coords=\"1101, 661, 1189, 696\" href=\"http://id86\" />
+&lt;area shape=\"rect\" coords=\"936, 340, 961, 366\" href=\"http://id58\" />
+&lt;area shape=\"rect\" coords=\"905, 311, 960, 339\" href=\"http://id72\" />
+&lt;area shape=\"rect\" coords=\"232, 333, 299, 364\" href=\"http://id37\" />
+&lt;area shape=\"rect\" coords=\"491, 348, 552, 377\" href=\"http://id46\" />
+&lt;area shape=\"rect\" coords=\"567, 314, 609, 354\" href=\"http://id67\" />
+&lt;area shape=\"rect\" coords=\"609, 333, 646, 376\" href=\"http://id66\" />
+&lt;area shape=\"rect\" coords=\"647, 314, 680, 357\" href=\"http://id65\" />
+&lt;area shape=\"rect\" coords=\"681, 339, 713, 372\" href=\"http://id64\" />
+&lt;area shape=\"rect\" coords=\"716, 321, 749, 353\" href=\"http://id63\" />
+&lt;area shape=\"rect\" coords=\"300, 337, 328, 365\" href=\"http://id36\" />
+&lt;area shape=\"rect\" coords=\"332, 323, 357, 356\" href=\"http://id35\" />
+&lt;area shape=\"rect\" coords=\"223, 206, 266, 236\" href=\"http://id26\" />
+&lt;area shape=\"rect\" coords=\"364, 329, 389, 370\" href=\"http://id34\" />
+&lt;area shape=\"rect\" coords=\"354, 621, 472, 647\" href=\"http://id57\" />
+&lt;area shape=\"rect\" coords=\"354, 596, 444, 615\" href=\"http://id56\" />
+&lt;area shape=\"rect\" coords=\"353, 570, 453, 593\" href=\"http://id55\" />
+&lt;area shape=\"rect\" coords=\"352, 543, 463, 566\" href=\"http://id54\" />
+&lt;area shape=\"rect\" coords=\"352, 517, 497, 540\" href=\"http://id53\" />
+&lt;area shape=\"rect\" coords=\"352, 491, 464, 511\" href=\"http://id52\" />
+&lt;area shape=\"rect\" coords=\"376, 464, 455, 484\" href=\"http://id51\" />
+&lt;area shape=\"rect\" coords=\"401, 442, 481, 464\" href=\"http://id50\" />
+&lt;area shape=\"rect\" coords=\"446, 399, 520, 419\" href=\"http://id48\" />
+&lt;area shape=\"rect\" coords=\"429, 419, 504, 441\" href=\"http://id49\" />
+&lt;area shape=\"rect\" coords=\"471, 377, 535, 399\" href=\"http://id47\" />
+&lt;area shape=\"rect\" coords=\"644, 718, 754, 754\" href=\"http://id129\" />
+&lt;area shape=\"rect\" coords=\"669, 680, 745, 703\" href=\"http://id128\" />
+&lt;area shape=\"rect\" coords=\"665, 650, 744, 669\" href=\"http://id127\" />
+&lt;area shape=\"rect\" coords=\"640, 618, 751, 644\" href=\"http://id126\" />
+&lt;area shape=\"rect\" coords=\"624, 585, 753, 611\" href=\"http://id125\" />
+&lt;area shape=\"rect\" coords=\"637, 551, 747, 571\" href=\"http://id124\" />
+&lt;area shape=\"rect\" coords=\"687, 519, 743, 540\" href=\"http://id123\" />
+&lt;area shape=\"rect\" coords=\"641, 484, 748, 506\" href=\"http://id122\" />
+&lt;area shape=\"rect\" coords=\"648, 453, 777, 476\" href=\"http://id121\" />
+&lt;area shape=\"rect\" coords=\"715, 422, 802, 442\" href=\"http://id120\" />
+&lt;area shape=\"rect\" coords=\"722, 384, 825, 414\" href=\"http://id119\" />
+&lt;area shape=\"rect\" coords=\"785, 285, 858, 309\" href=\"http://id118\" />
+&lt;area shape=\"rect\" coords=\"784, 236, 864, 270\" href=\"http://id117\" />
+&lt;area shape=\"rect\" coords=\"160, 516, 254, 538\" href=\"http://id44\" />
+&lt;area shape=\"rect\" coords=\"154, 493, 252, 513\" href=\"http://id43\" />
+&lt;area shape=\"rect\" coords=\"164, 465, 251, 489\" href=\"http://id42\" />
+&lt;area shape=\"rect\" coords=\"173, 439, 250, 458\" href=\"http://id41\" />
+&lt;area shape=\"rect\" coords=\"175, 415, 251, 435\" href=\"http://id40\" />
+&lt;area shape=\"rect\" coords=\"136, 386, 260, 408\" href=\"http://id39\" />
+&lt;area shape=\"rect\" coords=\"192, 365, 280, 384\" href=\"http://id38\" />
+&lt;area shape=\"rect\" coords=\"896, 350, 922, 378\" href=\"http://id59\" />
+&lt;area shape=\"rect\" coords=\"864, 325, 892, 357\" href=\"http://id60\" />
+&lt;area shape=\"rect\" coords=\"789, 317, 830, 355\" href=\"http://id61\" />
+&lt;area shape=\"rect\" coords=\"749, 339, 787, 373\" href=\"http://id62\" />
+&lt;area shape=\"rect\" coords=\"452, 316, 488, 357\" href=\"http://id31\" />
+&lt;area shape=\"rect\" coords=\"422, 332, 451, 364\" href=\"http://id32\" />
+&lt;area shape=\"rect\" coords=\"391, 315, 419, 358\" href=\"http://id33\" />
+&lt;area shape=\"rect\" coords=\"300, 173, 337, 204\" href=\"http://id23\" />
+&lt;area shape=\"rect\" coords=\"865, 279, 937, 310\" href=\"http://id71\" />
+&lt;area shape=\"rect\" coords=\"880, 245, 934, 268\" href=\"http://id70\" />
+&lt;area shape=\"rect\" coords=\"991, 243, 1074, 266\" href=\"http://id153\" />
+&lt;area shape=\"rect\" coords=\"979, 284, 1090, 308\" href=\"http://id154\" />
+&lt;area shape=\"rect\" coords=\"1152, 607, 1260, 627\" href=\"http://id146\" />"</string>
+    <string name="btnContinue">Continuar</string>
+    <string name="bus_funcionando">Operando</string>
+    <string name="bus_no_funcionando">Sin Servicio</string>
+    <string name="buscandoEstacion">Buscando la estación actual…</string>
+    <string name="cComporteDriverArrive">Tu vehículo ha llegado</string>
+    <string name="calculate.change.transport">Cambiar transporte</string>
+    <string name="calculate.change.transport.desc">Muestra los diferentes medios de transporte</string>
+    <string name="calculate.google">Google Maps</string>
+    <string name="calculate.history">Trayectos recientes</string>
+    <string name="calculate.lines">Troncales</string>
+    <string name="calculate.must.end">Debe seleccionar punto de destino.</string>
+    <string name="calculate.must.start">Debe seleccionar punto de origen.</string>
+    <string name="calculate.must.start.end">Debe seleccionar punto de origen y destino.</string>
+    <string name="calculate.resend">Reenviar</string>
+    <string name="calculate.resend.message">"Se le ha enviado un correo a la dirección especificada.
+Debe confirmar el email."</string>
+    <string name="calculate.restart">Reiniciar</string>
+    <string name="calculate.search.route">Calcular Ruta</string>
+    <string name="calculate.signin.fail">Fallo en autenticación</string>
+    <string name="calculate.start.end.distinct">La estación origen y destino deben ser diferentes.</string>
+    <string name="calculate.starting.taxi">Inicializando Taxis Libres</string>
+    <string name="calculate.system">Mapa Sistema</string>
+    <string name="calculate.taxi">Taxi</string>
+    <string name="calculate.taxi_request">Vehículo solicitado. ¿Desea ver el estado de su solicitud?</string>
+    <string name="calculate.transports">Seleccione medios de transporte</string>
+    <string name="calculate.wait">Un momento por favor</string>
+    <string name="calculate.will.restart">El calculo se reiniciara</string>
+    <string name="cambiar_hora">Cambiar hora</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancel.service">CANCELAR SERVICIO</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="charge_news_twitter">"Obteniendo noticias de movilidad.
+Un momento por favor."</string>
+    <string name="charge_page_civico">Esta cargando la página por favor espere</string>
+    <string name="checkNetwork">Revise su conexión a internet</string>
+    <string name="check_email">Recibir datos del taxista a mi correo</string>
+    <string name="checkinServer">Verificando en el servidor</string>
+    <string name="choose_transport">Selecciona al menos un medio de transporte</string>
+    <string name="city_number">2203000</string>
+    <string name="city_number_secondary">195</string>
+    <string name="close">Cerrar</string>
+    <string name="closeDrawer">Menú de navegación</string>
+    <string name="cod">Codigo de seguridad: %s</string>
+    <string name="com.crashlytics.android.build_id">a9964c58-f70a-4cc1-84d9-9fa44e51311e</string>
+    <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
+    <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_like_button_liked">Liked</string>
+    <string name="com_facebook_like_button_not_liked">Like</string>
+    <string name="com_facebook_loading">Loading…</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+    <string name="com_facebook_loginview_log_in_button_continue">Continue with Facebook</string>
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_send_button_text">Send</string>
+    <string name="com_facebook_share_button_text">Share</string>
+    <string name="com_facebook_smart_device_instructions">To connect your account, open the Facebook app on your mobile device and check for notifications.</string>
+    <string name="com_facebook_smart_device_instructions_or">- OR -</string>
+    <string name="com_facebook_smart_login_confirmation_cancel">Not you?</string>
+    <string name="com_facebook_smart_login_confirmation_continue_as">Continue as %1$s</string>
+    <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
+    <string name="com_facebook_tooltip_default">"You're in control - choose what info you want to share with apps."</string>
+    <string name="comments">Envíenos sus comentarios</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="connect">Conectar</string>
+    <string name="consultar_saldo">Consultar saldo</string>
+    <string name="contact">Para contactar a MoviliXa</string>
+    <string name="contentAd">Resultados de las principales loterías y chances de Colombia.</string>
+    <string name="create_service_taxi">{\"keyCommand\": \"2\",\"detailsCommand\": \"CREAR_SERVICIO\",\"canal\":\"SITP\",\"direccionPrincipal\": \"%1$s\",\"indicaciones\": \"\",\"latitud\": \"%2$s\",\"longitud\":\"%3$s\",\"medioPago\": \"EFECTIVO\",\"nombreUsuario\":\"%4$s\",\"telefonoOrigen\":\"%5$s\",\"usuario\":\"%6$s\",\"propina\":\"%7$s\"}</string>
+    <string name="date.format.save">yyyy-MM-dd HH:mm:ss</string>
+    <string name="default_web_client_id">892068421876-61eum3iifqiaipbm9puc8leoan7gk98m.apps.googleusercontent.com</string>
+    <string name="deleteAdsYear">Eliminar publicidad por un año</string>
+    <string name="descChange">Puedes intercambiar el origen con el destino</string>
+    <string name="descDestine">Selecciona el destino del recorrido</string>
+    <string name="descDirections">Busca rutas para tu viaje</string>
+    <string name="descMenu">Encuentra más opciones aquí</string>
+    <string name="descMoreOptions">Usa opciones directas para calcular tus rutas</string>
+    <string name="descOrigen">Selecciona desde donde iniciara el recorrido</string>
+    <string name="descTaxi">O puedes solicitar un servicio de taxi</string>
+    <string name="descTransbordo">Asigna una alarma para límite de tiempo en transbordos</string>
+    <string name="descTransport">Selecciona uno o varios sistemas de transporte para calcular tu ruta</string>
+    <string name="destinePoint">Punto de destino</string>
+    <string name="developed">Desarrollado Por:</string>
+    <string name="directions">Rutas</string>
+    <string name="downloadMessage">"El tamaño del paquete es de 10MB aproximadamente
+¿Desea descargarlo?."</string>
+    <string name="exchange">Cambiar punto de origen con punto de destino</string>
+    <string name="exchangeTitle">Intercambio</string>
+    <string name="exo_controls_fastforward_description">Fast forward</string>
+    <string name="exo_controls_next_description">Next track</string>
+    <string name="exo_controls_pause_description">Pause</string>
+    <string name="exo_controls_play_description">Play</string>
+    <string name="exo_controls_previous_description">Previous track</string>
+    <string name="exo_controls_rewind_description">Rewind</string>
+    <string name="exo_controls_stop_description">Stop</string>
+    <string name="favorites">Favoritos</string>
+    <string name="favorites.added">Agregado a favoritos correctamente</string>
+    <string name="favorites.deleted">Eliminado de favoritos correctamente</string>
+    <string name="fbAppId">827226797311093</string>
+    <string name="fb_login_protocol_scheme">fb827226797311093</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="firebase_database_url">https://api-project-892068421876.firebaseio.com</string>
+    <string name="gcm_defaultSenderId">892068421876</string>
+    <string name="google_api_key">AIzaSyA4FNxrHhEXYPvRcMDlsJ2cyRPfDd5U21c</string>
+    <string name="google_app_id">1:892068421876:android:9fc17d2d28c2ae97</string>
+    <string name="google_crash_reporting_api_key">AIzaSyA4FNxrHhEXYPvRcMDlsJ2cyRPfDd5U21c</string>
+    <string name="google_maps_key">AIzaSyDOX8kqIzVU6SfSywjQK5yZ9uR8o-nsEsw</string>
+    <string name="google_storage_bucket">api-project-892068421876.appspot.com</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_phone">Número celular</string>
+    <string name="home.buses">Rutas</string>
+    <string name="home.news">Noticias</string>
+    <string name="home.reading.balance">Consultar Saldo</string>
+    <string name="home.recharge">Puntos de Recarga</string>
+    <string name="home.stops">Paraderos</string>
+    <string name="home.system.map">Mapa Sistema</string>
+    <string name="home.tourism">Turismo</string>
+    <string name="home_buses_servicios">Transmilenio y SITP</string>
+    <string name="home_header">Transmilenio:<b> $%1$s,</b> SITP:<b> $%2$s</b>, Mínima Taxi:<b> $%3$s</b></string>
+    <string name="home_route">Viajar en Transmi, SITP o Taxi</string>
+    <string name="home_sitp">SITP</string>
+    <string name="home_taxi">Solicitar Taxi</string>
+    <string name="home_transmilenio">Transmilenio</string>
+    <string name="home_tu_llave">Tu Llave</string>
+    <string name="idFacebook">fb://page/529348987087649</string>
+    <string name="idFacebookCatch">http://www.facebook.com/transmilenioysitp</string>
+    <string name="idTwitter">twitter://user?screen_name=transmisitp</string>
+    <string name="idTwitterCatch">http://twitter.com/transmisitp</string>
+    <string name="independent">Somos una iniciativa independiente</string>
+    <string name="indicative">031</string>
+    <string name="info_taxi">Esperamos disfrutes tu viaje. Si requieres mas información sobre el servicio puedes cominicarte con Taxis Libres a servicioalcliente@taxislibres.com.co</string>
+    <string name="isPremium">No tiene publicidad</string>
+    <string name="kmh">Km/h</string>
+    <string name="latitude">4.615304</string>
+    <string name="leosites">LeoSites</string>
+    <string name="line.choose.end">Seleccione linea de destino</string>
+    <string name="line.choose.start">Seleccione linea de origen</string>
+    <string name="line.end">Linea Destino</string>
+    <string name="line.start">Linea Origen</string>
+    <string name="line.station.choose.end">Seleccione estación de destino</string>
+    <string name="line.station.choose.start">Seleccione estación de origen</string>
+    <string name="line.station.end">Estación destino</string>
+    <string name="line.station.start">Estación origen</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="longitude">-74.062338</string>
+    <string name="map.choose.station">Seleccione una estación para ver las rutas</string>
+    <string name="map.finishing.km">Llegada a %s kilómetros</string>
+    <string name="map.finishing.m">Llegada a %s metros</string>
+    <string name="map.finishing.trip">Llegando a destino</string>
+    <string name="map.home">Casa</string>
+    <string name="map.looking.nearby.station">Buscando parada cercana...</string>
+    <string name="map.must.name">Debe ingresar un nombre</string>
+    <string name="map.my.location">Mi Ubicación</string>
+    <string name="map.not.found.coords">No se han encontrado las coordenadas del paradero especificado</string>
+    <string name="map.select">Seleccionar</string>
+    <string name="map.start.selected">"Inicio seleccionado correctamente!. 
+Ahora seleccione el destino"</string>
+    <string name="map.start.trip">Inicio del Recorrido</string>
+    <string name="map.transfer.km">Tranferencia a %s kilómetros</string>
+    <string name="map.transfer.m">Tranferencia a %s metros</string>
+    <string name="map.work">Trabajo</string>
+    <string name="map.zoom.in">Acérquese a la zona de origen para encontrar paraderos cercanos</string>
+    <string name="map.zoom.in.recharge">Acérquese a la zona para encontrar puntos de recarga cercanos</string>
+    <string name="map.zoom.in.stations">Acérquese a la zona para ver estaciones y paraderos cercanos</string>
+    <string name="map.zoom.in.tourism">Acérquese a la zona para encontrar puntos de turismo cercanos</string>
+    <string name="mapPoint">Seleccionar sitio en el mapa</string>
+    <string name="mapPointSelected">Punto de mapa seleccionado</string>
+    <string name="mapa">Mapa</string>
+    <string name="mapa_sistema">Mapa del sistema</string>
+    <string name="message_authentication">Para poder seguir debes autenticarte.</string>
+    <string name="metro">Metro</string>
+    <string name="metroBus">Metrobús</string>
+    <string name="moreOptions">Más opciones</string>
+    <string name="movilixa">MoviliXa</string>
+    <string name="name">Nombre</string>
+    <string name="news.title">Noticias</string>
+    <string name="newsMsg">Puedes enviar tus reportes del sistema con el hashtag, &lt;b>&lt;font color=#%2$s>%1$s&lt;/font>&lt;/b>. En máximo 5 minutos aparecerá.</string>
+    <string name="noAds">Usted no tiene anuncios</string>
+    <string name="noAdsUntil">Sin anuncios hasta</string>
+    <string name="noAdsVersion">Quitar publicidad</string>
+    <string name="noRoute">No se encontraron rutas con los criterios específicados</string>
+    <string name="noService">Servicio no disponible</string>
+    <string name="no_email">Debe registrar un email para continuar</string>
+    <string name="no_nfc">Su dispositivo no tiene N F C</string>
+    <string name="no_phone">Debe ingresar un número de celular válido para continuar</string>
+    <string name="no_terms">Debe aceptar los términos y condiciones para continuar</string>
+    <string name="not_avaliable">No disponible</string>
+    <string name="noticication">Notificaciones</string>
+    <string name="noticicationSummary">Notificaciones</string>
+    <string name="notification_subject">Se agotó el tiempo de trasbordo</string>
+    <string name="notification_subject_ten">Restan 15 minutos de trasbordo</string>
+    <string name="notification_title">Tiempo Agotado</string>
+    <string name="notification_title_ten">Tiempo de Trasbordo</string>
+    <string name="official_number">018000115510</string>
+    <string name="openDrawer">Menú de navegación cerrado</string>
+    <string name="origenPoint">Punto de origen</string>
+    <string name="paraderos">Paraderos</string>
+    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="pay.error.validate.content">"No se pudo verificar la compra. Si su producto no se activo, por favor reenvie el correo enviado por google con el número de orden al correo feedback@leosites.com.
+Cualquier inquietud puede contactarnos al 9087723"</string>
+    <string name="pay.error.validate.title">Error en la compra</string>
+    <string name="paymentError">"Ha ocurrido un error.
+Contáctenos para solucionarle el problema."</string>
+    <string name="paymentFound">"Se encontró un pago realizado por el usuario. 
+Se activará el producto comprado."</string>
+    <string name="place_autocomplete_clear_button">Clear search</string>
+    <string name="place_autocomplete_search_hint">Search</string>
+    <string name="place_details">&lt;b>%1$s&lt;/b> &lt;br/> %2$s</string>
+    <string name="planear_viaje">Planear viaje</string>
+    <string name="precios_transporte">Transmilenio 2300 pesos, SITP 2100 pesos, Mínima de Taxi 4100 pesos</string>
+    <string name="preferences.check.update">Buscar actualizaciones</string>
+    <string name="preferences.download.sitp">Descargar imagenes SITP</string>
+    <string name="preferences.no.version">Ya tiene la última versión</string>
+    <string name="preferences.not.now">Ahora no</string>
+    <string name="preferences.notice">Aviso</string>
+    <string name="preferences.version">Versión (%s) esta disponible, ¿Desea descargarla?</string>
+    <string name="productSkuPublicity">365_days_premium</string>
+    <string name="profile.checking.taxis">Verificando con Taxis Libres</string>
+    <string name="profile.email">Correo</string>
+    <string name="profile.guest">Invitado</string>
+    <string name="profile.linked">Enlazado con:</string>
+    <string name="profile.phone">Télefono</string>
+    <string name="profile.wait">Espere por favor.</string>
+    <string name="project_id">api-project-892068421876</string>
+    <string name="projects">Nuestros Proyectos</string>
+    <string name="publicKey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmo6tWwc6yhXdIqv+FwsbMjw+U64X9RzKw18Dm9xf2mA5KMcsUSfttS6CH04mXNvXHR98C2KVseavniFPHN0Diw/sd4Yjrgq+AXvAhj5qKOPFyPhmPz6n/JtWs2T+R+EZTcZ9RUC/5hsgyFq/W1BpEbaWl/VkJUSanoBk+nL7Uh9bdwo6Zees/0+ARuav4RR6PqnPfy6vNgq/KoqjMCHOM7TVwLl+2nxBtJtpNbA7EnHuF+rUWEFdQMos1FSipLOil7KUTV95Y3W7nsq6kStpo15bkkK7TSTFUCBecZPaWvedawAcgtPDpYcnVLCeeIJSNiTu9YX88YbUBvVFZHO9+QIDAQAB</string>
+    <string name="puntos_header"><b>Puntos de Recarga cercanos</b></string>
+    <string name="puntos_recarga">Puntos de recarga</string>
+    <string name="rastrear_ruta">Rastrear ruta</string>
+    <string name="rateAfter">RECORDARME LUEGO</string>
+    <string name="rateDesc">Como iniciativa independiente contamos con tu apoyo para ser mejores</string>
+    <string name="rateLike">¿Te gusta nuestra aplicación?</string>
+    <string name="rateNo">NO, GRACIAS</string>
+    <string name="rateOpt">CALIFICAR</string>
+    <string name="rateUs">Califícanos</string>
+    <string name="reader.changes">"Realizar cambios en el sistema operativo por una version 'no oficial', cambios de tapa o de bateria pueden afectar el funcionamiento de NFC si no son repuestos originales del fabricante"</string>
+    <string name="reader.debt.payment">Pago Deuda</string>
+    <string name="reader.intro">Activa NFC en la configuración de conexiones y acerca la tarjeta tullave a la parte posterior de tu dispositivo</string>
+    <string name="reader.moves">Movimientos</string>
+    <string name="reader.not.available">No disponible</string>
+    <string name="reader.passage.payment">Pago Pasaje</string>
+    <string name="reader.price">"Valor: "</string>
+    <string name="reader.reaches">Saldo alcanza para:</string>
+    <string name="reader.recharge">Recarga</string>
+    <string name="reader.sitp">Pasajes SITP:</string>
+    <string name="reader.transaction">Transacción:</string>
+    <string name="reader.transfer">Transbordos:</string>
+    <string name="reader.transmilenio">Pasajes Transmilenio:</string>
+    <string name="ready">LISTO</string>
+    <string name="recharge.custom">PERONALIZACIÓN</string>
+    <string name="recharge.point">Punto de recarga</string>
+    <string name="recharge.recharge">RECARGA</string>
+    <string name="recharge.share">Compartir con</string>
+    <string name="recharge.title">Puntos de recarga</string>
+    <string name="recogeme">SOLICITAR SERVICIO</string>
+    <string name="recommendation">Recomendación %1$d</string>
+    <string name="recycler.delete">Eliminar</string>
+    <string name="recycler.sure.delete">¿Esta seguro de eliminar el cálculo de ruta del historial?</string>
+    <string name="route.approx">Aprox</string>
+    <string name="route.best">"Calculando la mejor ruta.
+Un momento por favor."</string>
+    <string name="route.bound.for">Con destino</string>
+    <string name="route.change">CAMBIAR</string>
+    <string name="route.change.day.hour">Cambiar día/hora</string>
+    <string name="route.choose.day.hour">Seleccione el dia y la hora</string>
+    <string name="route.day.friday">Viernes</string>
+    <string name="route.day.hour">Día y hora:</string>
+    <string name="route.day.monday">Lunes</string>
+    <string name="route.day.saturday">Sábado</string>
+    <string name="route.day.sunday">Domingo (festivo)</string>
+    <string name="route.day.thursday">Jueves</string>
+    <string name="route.day.tuesday">Martes</string>
+    <string name="route.day.wednesday">Miércoles</string>
+    <string name="route.end">Destino:</string>
+    <string name="route.end.trayect">Fin del recorrido</string>
+    <string name="route.gate">vagón</string>
+    <string name="route.leaves">Inicio en</string>
+    <string name="route.map">MAPA</string>
+    <string name="route.point.selected">Punto seleccionado</string>
+    <string name="route.selected.location">Ubicación seleccionada</string>
+    <string name="route.share">COMPARTIR</string>
+    <string name="route.share.trip">Compartir cálculo de ruta</string>
+    <string name="route.shared">Te han compartido un cálculo de ruta:</string>
+    <string name="route.start">Origen:</string>
+    <string name="route.start.trip">INICIAR VIAJE</string>
+    <string name="route.stops">Paradas</string>
+    <string name="route.then">Después</string>
+    <string name="route.to">Hasta</string>
+    <string name="route.until">Llegar a</string>
+    <string name="route.waiting.gps">Encontrando su ubicación. Un momento por favor.</string>
+    <string name="route.walk">Caminar</string>
+    <string name="ruta">Ruta</string>
+    <string name="rutas">Rutas</string>
+    <string name="rutas_buses">Rutas de buses</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="sNo">No</string>
+    <string name="sYes">Seguro</string>
+    <string name="searchDestinoHint">Busca paradero de destino</string>
+    <string name="searchOrigenHint">Busca paradero de origen</string>
+    <string name="search_menu_title">Search</string>
+    <string name="send_email_account">feedback@leosites.com</string>
+    <string name="send_email_subject">TransmiSitp App - XXX</string>
+    <string name="send_email_using">Seleccione aplicación de email</string>
+    <string name="share">Compartir App</string>
+    <string name="share_app">Ayúdanos y comparte TransmiSitp</string>
+    <string name="share_app_msg">Movilizate mejor en Bogotá con TransmiSitp. Descárgala desde https://play.google.com/store/apps/details?id=com.rutasdeautobuses.transmileniositp</string>
+    <string name="share_app_subject">TransmiSitp enlace de descarga</string>
+    <string name="share_route">Compartir ruta</string>
+    <string name="share_using">Compartir via</string>
+    <string name="show_map"><b>VER MAPA</b></string>
+    <string name="sign_in">Autenticación</string>
+    <string name="sitp">SITP</string>
+    <string name="soapActionWS">http://www.movilixa.com/</string>
+    <string name="station.detail">Detalle</string>
+    <string name="station_header"><b>Estaciones cercanas</b></string>
+    <string name="stations.all">TODOS</string>
+    <string name="stations.title">Estaciones</string>
+    <string name="stations.title.other">Paraderos</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stops.download">Descargar</string>
+    <string name="stops.download.images">Descargar imágenes</string>
+    <string name="stops.downloading.images">Descargando imágenes</string>
+    <string name="stops.more">Más</string>
+    <string name="stops.next.station">Próxima parada</string>
+    <string name="stops.no.gps">No se encontró GPS en el dispositivo</string>
+    <string name="stops.path">Recorrido</string>
+    <string name="stops.path.image">Recorrido en Imagen</string>
+    <string name="stops.route.tracking">Monitoreo de Ruta</string>
+    <string name="store_page">https://play.google.com/store/apps/details?id=com.rutasdeautobuses.transmileniositp</string>
+    <string name="store_page_in">market://details?id=com.rutasdeautobuses.transmileniositp</string>
+    <string name="strCancel">{\"keyCommand\":\"3\",\"detailsCommand\":\"CANCELAR_SERVICIO\",\"motivoRechazo\":\"AUN ME DEMORO UNOS 15 MINUTOS\",\"idServicio\": \"%1$s\"}</string>
+    <string name="strConsult">{\"keyCommand\":\"1\",\"detailsCommand\":\"CONSULTAR_SERVICIO\",\"idServicio\": \"%1$s\"}</string>
+    <string name="strDriver">{\"keyCommand\": \"5\",\"detailsCommand\": \"URICAR_CONDUCTOR\",\"idConductor\": \"%1$S\",\"placa\":\"PLACA\",\"idServicio\": \"%2$S\"}</string>
+    <string name="str_transport_contac_secondary">www.tullaveplus.com</string>
+    <string name="str_transport_contact">www.transmilenio.gov.co</string>
+    <string name="subUrbano">Suburbano</string>
+    <string name="suggestion">Para reportes, quejas y sugerencias relacionadas con el sistema de transporte puede contactarse con:</string>
+    <string name="sure">¿Está seguro?</string>
+    <string name="taxiDriverArrive">Tu taxi ha llegado</string>
+    <string name="taxi_politics">Términos de uso</string>
+    <string name="taxifare.airport">Aeropuerto</string>
+    <string name="taxifare.detail">Detalle</string>
+    <string name="taxifare.distance">100 metros o 24 seg</string>
+    <string name="taxifare.door">Puerta-Puerta</string>
+    <string name="taxifare.door.service">Servicio puerta a puerta</string>
+    <string name="taxifare.hour.service">Servicio por hora</string>
+    <string name="taxifare.minimum.career">Carrera mínima</string>
+    <string name="taxifare.night">Noct./Fest.</string>
+    <string name="taxifare.night.detail">Nocturno/Festivo (8PM-5AM)</string>
+    <string name="taxifare.price">Valor</string>
+    <string name="taxifare.start">Arranque o banderazo</string>
+    <string name="taxifare.surcharges">Recargos</string>
+    <string name="taxifare.surcharges.detail">Detalle de recargos</string>
+    <string name="taxifare.terminal">Terminal</string>
+    <string name="taxifare.total">Total</string>
+    <string name="taxifare.units">Unidades</string>
+    <string name="terms">Acepto términos y condiciones de</string>
+    <string name="tip">$ %d</string>
+    <string name="titleAd">Resultado Loterías Colombia</string>
+    <string name="titleMenu">Menú principal</string>
+    <string name="titleTaxi">Taxi</string>
+    <string name="titleTransbordo">Transbordo</string>
+    <string name="titleTransport">Transporte</string>
+    <string name="title_activity_base_movilixa_select_transport_new">BaseMovilixaSelectTransportNew</string>
+    <string name="title_activity_bus_recorrido">Recorrido bus</string>
+    <string name="title_activity_calcular_ruta_transmilenio">Calcular Ruta</string>
+    <string name="title_activity_card_reader">Consultar saldo</string>
+    <string name="title_activity_estacion_list">Estaciones</string>
+    <string name="title_activity_origen_destino">Rutas sugeridas</string>
+    <string name="title_activity_payments">Pagos</string>
+    <string name="title_activity_show_image">Imagen</string>
+    <string name="title_activity_show_map">ShowMap</string>
+    <string name="title_activity_taxi">Solicitud de Taxi</string>
+    <string name="title_activity_troncales">Troncales</string>
+    <string name="title_section_about">Acerca de</string>
+    <string name="title_section_bus">Rutas</string>
+    <string name="title_section_calc_taxi">Taximetro</string>
+    <string name="title_section_cardReader">Lectura de Saldo</string>
+    <string name="title_section_config">Configuración</string>
+    <string name="title_section_exit">Salir</string>
+    <string name="title_section_favorites">Favoritos</string>
+    <string name="title_section_help">Ayuda</string>
+    <string name="title_section_home">Inicio</string>
+    <string name="title_section_mapTM">Mapa Transmilenio</string>
+    <string name="title_section_news">Noticias</string>
+    <string name="title_section_recharge">Puntos Recarga</string>
+    <string name="title_section_route">Cálculo Ruta</string>
+    <string name="title_section_station">Estaciones</string>
+    <string name="todos">Todos</string>
+    <string name="touchAdd">Toca para añadir</string>
+    <string name="tourism.all">Todos</string>
+    <string name="tourism.churches">Iglesias</string>
+    <string name="tourism.libraries">Bibliotecas</string>
+    <string name="tourism.monuments">Monumentos</string>
+    <string name="tourism.museums">Museos</string>
+    <string name="tourism.others">Otros</string>
+    <string name="tourism.parks">Parques</string>
+    <string name="tourism.plan.trip">PLANEAR VIAJE</string>
+    <string name="tourism.theaters">Teatros</string>
+    <string name="tourism.title">Turismo</string>
+    <string name="transmilenio">TRANSMILENIO</string>
+    <string name="trunk.choose.end">Seleccione troncal de destino</string>
+    <string name="trunk.choose.start">Seleccione troncal de origen</string>
+    <string name="trunk.end">Troncal Destino</string>
+    <string name="trunk.start">Troncal Origen</string>
+    <string name="twitterAccount">\@transmisitp</string>
+    <string name="twitterHashTag">\#ReporteTS</string>
+    <string name="twitter_msg">http://twitter.com/?status=</string>
+    <string name="twitter_msg_in">twitter://post?message=</string>
+    <string name="updatingData">Actualizando datos</string>
+    <string name="url">http://movilixa.com</string>
+    <string name="urlNamespace">http://www.movilixa.com/</string>
+    <string name="urlWS">http://movilixaservices.leosites.com/services.asmx</string>
+    <string name="url_civico">https://www.civico.com/bogota/transportes</string>
+    <string name="url_terms">https://red-amarilla.appspot.com/terminos.html</string>
+    <string name="url_transport_contac_secondary">http://www.tullaveplus.com</string>
+    <string name="url_transport_contact">http://www.transmilenio.gov.co</string>
+    <string name="userProfile">Perfil de usuario</string>
+    <string name="user_authentication">Autenticación Usuario</string>
+    <string name="vagon">Vagón</string>
+    <string name="validateEmail">"Se ha enviado un correo a la dirección especificada.
+Debe confirmar el email."</string>
+    <string name="validatedPayment">El pago se ha sido validado correctamente.</string>
+    <string name="validatingPayment">Validando pago...</string>
+    <string name="version">Versión</string>
+    <string name="visit">Visita nuestros proyectos</string>
+    <string name="web_client_id">892068421876-61eum3iifqiaipbm9puc8leoan7gk98m.apps.googleusercontent.com</string>
+    <string name="web_page_news">http://movilixaservices.leosites.com/news/news.aspx</string>
+    <string name="web_services">http://movilixaservices.leosites.com/services.asmx</string>
+    <string name="web_services_namespace">http://www.movilixa.com/</string>
+    <string name="write_us">Escríbenos</string>
+    <string name="yourLocation">Tu ubicación</string>
+    <string name="zone">Zona</string>
+</resources>

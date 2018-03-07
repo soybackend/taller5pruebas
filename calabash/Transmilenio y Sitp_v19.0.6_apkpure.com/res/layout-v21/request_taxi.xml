@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <fragment android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.gms.maps.SupportMapFragment"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <EditText android:id="@id/editAddress" android:background="@drawable/edit_address" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="20.0dip" android:layout_weight="1.0" android:inputType="textPostalAddress" />
+        <LinearLayout android:orientation="vertical" android:id="@id/lytDriver" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/lytLlegada" android:background="@color/llegada_bckgrnd" android:paddingTop="@dimen/defaultMiddlePadding" android:paddingBottom="@dimen/defaultMiddlePadding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/bigPadding">
+                <ImageView android:id="@id/imgTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/txtLlegada" />
+                <TextView android:textColor="@android:color/black" android:id="@id/txtLlegada" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="Llegada en 6 minutos" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/infoDriver_bckgrnd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/bigPadding">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imgDriver" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding" android:src="@drawable/default_driver" android:layout_centerVertical="true" android:alpha="1.0" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_weight="1.0" android:layout_toRightOf="@id/imgDriver" android:layout_alignParentTop="true" android:layout_centerVertical="true">
+                    <TextView android:textSize="12.0sp" android:id="@id/txtDriverName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Alejandro Suarez" />
+                    <TextView android:textSize="12.0sp" android:id="@id/txtDriverCel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 3204554322" />
+                    <TextView android:textSize="12.0sp" android:id="@id/txtDriverPlate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STX 002" />
+                    <TextView android:textSize="12.0sp" android:id="@id/txtDriverCod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Codigo de seguridad: 22" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imgCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultPadding" android:src="@drawable/phone" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imgGps" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/gps_blanco" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <Button android:textSize="18.0sp" android:textColor="@android:color/black" android:id="@id/btnRequestTaxi" android:background="@drawable/btn_request_taxi" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="70.0dip" android:layout_marginRight="70.0dip" android:layout_marginBottom="20.0dip" android:text="@string/recogeme" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <Button android:textSize="16.0sp" android:textColor="@android:color/white" android:id="@id/btnCancelRequest" android:background="@drawable/btn_cancel_taxi" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="70.0dip" android:layout_marginRight="70.0dip" android:layout_marginBottom="20.0dip" android:text="@string/cancel" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/imgPerson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pin_center" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/terms" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="10.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_taxis_libres_big" />
+        <TextView android:textSize="11.0dip" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/txtTerminos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/taxi_politics" />
+    </LinearLayout>
+</LinearLayout>

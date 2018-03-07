@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center_horizontal" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="40.0dip" android:text="Buscando taxi, por favor espera..." />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_marginTop="20.0dip">
+        <LinearLayout android:background="@color/road" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:layout_gravity="center" android:background="@drawable/road_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:id="@id/imgTaxi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/taxi" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/persona" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/progressFinding" android:background="@color/progress_bckgrnd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progressDrawable="@drawable/progress_bar_start" android:minHeight="10.0dip" style="?android:progressBarStyleHorizontal" />
+    <CheckBox android:id="@id/checkEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:checked="true" android:text="@string/check_email" />
+    <Button android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnCancelService" android:background="@drawable/btn_cancel_taxi" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="40.0dip" android:layout_marginBottom="20.0dip" android:text="@string/cancel" />
+</LinearLayout>

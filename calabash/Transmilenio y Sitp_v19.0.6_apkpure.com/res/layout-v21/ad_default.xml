@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lytMainAds" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ad_badge" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultMiddlePadding">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@android:color/darker_gray" android:layout_width="60.0dip" android:layout_height="wrap_content">
+                            <ImageView android:layout_gravity="center" android:id="@id/imgAd" android:layout_width="wrap_content" android:layout_height="60.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="100.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/titleAd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" />
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding">
+                                <TextView android:textSize="12.0sp" android:textColor="@android:color/black" android:id="@id/appinstall_store" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="5.0dip" />
+                                <RatingBar android:id="@id/install_stars" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stepSize="0.5" android:isIndicator="true" android:progressTint="@color/stars" android:progressBackgroundTint="@color/stars" android:secondaryProgressTint="@color/stars" style="?android:ratingBarStyleSmall" />
+                            </LinearLayout>
+                            <TextView android:textSize="12.0sp" android:textColor="@android:color/black" android:id="@id/contentAd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/accentColor" android:id="@id/installAd" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:height="25.0dip" android:layout_below="@id/lytMainAds" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+</RelativeLayout>

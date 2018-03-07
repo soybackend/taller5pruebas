@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lytTroncales" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:layout_gravity="center|top" android:id="@id/lytHomeCenter" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:paddingLeft="@dimen/defaultPadding" android:paddingRight="@dimen/defaultPadding" android:paddingBottom="56.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" />
+        </LinearLayout>
+        <include android:layout_width="fill_parent" android:layout_height="?actionBarSize" layout="@layout/toolbar" />
+    </FrameLayout>
+</LinearLayout>

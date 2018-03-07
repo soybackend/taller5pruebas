@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lytContent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/lineTravel" android:background="@color/travelLine" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding" android:layout_centerVertical="true" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_pin_start" android:layout_above="@id/lineTravel" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="10.0sp" android:textColor="@android:color/black" android:id="@id/tvInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/defaultPadding" android:text="@string/map.looking.nearby.station" android:layout_below="@id/lineTravel" />
+    </RelativeLayout>
+</LinearLayout>

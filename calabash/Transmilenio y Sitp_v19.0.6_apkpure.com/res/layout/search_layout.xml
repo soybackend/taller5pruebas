@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:theme="@style/Base.ThemeOverlay.AppCompat.Dark" android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.v7.widget.CardView android:id="@id/cardSearch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultPadding" app:cardCornerRadius="2.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <EditText android:textSize="14.0sp" android:textColor="@android:color/black" android:textColorHint="@color/divisor_gray" android:id="@id/etSearch" android:background="@android:color/white" android:padding="@dimen/defaultMiddlePadding" android:layout_width="fill_parent" android:layout_height="32.0dip" android:maxLines="1" android:minLines="1" android:singleLine="true" android:layout_centerVertical="true" android:imeOptions="actionDone" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.Toolbar>
+    <android.support.v7.widget.CardView android:id="@id/cardList" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" app:cardCornerRadius="2.0dip">
+        <ListView android:id="@id/list" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v7.widget.CardView>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip">
+                <android.support.v7.widget.CardView android:id="@id/cardGpsMap" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" app:cardCornerRadius="2.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:id="@id/lytGps" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground" android:layout_alignParentTop="true">
+                            <ImageView android:id="@id/imgGps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" android:src="@drawable/ic_gps_selected" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                            <TextView android:textColor="@android:color/black" android:id="@id/tvGps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:text="@string/yourLocation" android:layout_toRightOf="@id/imgGps" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <View android:id="@id/divisorView" android:background="@color/divisor_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="36.0dip" android:layout_below="@id/lytGps" />
+                        <RelativeLayout android:id="@id/lytMap" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground" android:layout_below="@id/divisorView">
+                            <ImageView android:id="@id/imgMap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" android:src="@drawable/ic_maps_selected" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                            <TextView android:textColor="@android:color/black" android:id="@id/tvMap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:text="@string/mapPoint" android:layout_toRightOf="@id/imgMap" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/lytFavAdd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/defaultPadding" android:layout_marginRight="@dimen/bigPadding" android:layout_marginBottom="@dimen/defaultPadding">
+                <TextView android:textSize="16.0sp" android:textColor="?colorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorites" />
+                <TextView android:textSize="16.0sp" android:textColor="?colorAccent" android:id="@id/tvAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <android.support.v7.widget.CardView android:id="@id/cardFavAdd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/lytHome" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground" android:layout_alignParentTop="true">
+                        <ImageView android:id="@id/imgHome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" android:src="@drawable/ic_action_home" android:tint="@color/home" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imgHome" android:layout_centerVertical="true">
+                            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:text="@string/map.home" />
+                            <TextView android:id="@id/tvHome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:text="@string/touchAdd" />
+                        </LinearLayout>
+                        <ImageView android:id="@id/imgEditHome" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultMiddlePadding" android:src="@drawable/ic_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <View android:id="@id/divisorHome" android:background="@color/divisor_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="36.0dip" />
+                    <RelativeLayout android:id="@id/lytWork" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground">
+                        <ImageView android:id="@id/imgWork" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" android:src="@drawable/ic_work" android:tint="@color/home" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imgWork" android:layout_centerVertical="true">
+                            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:text="@string/map.work" android:layout_centerVertical="true" />
+                            <TextView android:id="@id/tvWork" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:text="@string/touchAdd" />
+                        </LinearLayout>
+                        <ImageView android:id="@id/imgEditWork" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultMiddlePadding" android:src="@drawable/ic_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:id="@id/cardFavs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding" android:layout_marginBottom="@dimen/bigPadding">
+                <com.movilixa.objects.ExpandableHeightListView android:id="@id/listFavs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/list_selector" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

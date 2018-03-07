@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center_vertical" android:id="@id/imgUser" android:layout_width="@dimen/perfil_image_size" android:layout_height="@dimen/perfil_image_size" android:layout_margin="@dimen/bigPadding" android:src="@drawable/default_driver" android:scaleType="centerCrop" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nombre y Apellido" />
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/bigPadding">
+                <LinearLayout android:orientation="horizontal" android:id="@id/lytEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginRight="@dimen/defaultPadding" android:animateLayoutChanges="true">
+                    <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/profile.email" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tvEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxxxxxxxxxxx@xxxxx.xxx" />
+                </LinearLayout>
+                <android.support.design.widget.TextInputLayout android:id="@id/tiEmail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="12.0sp" android:id="@id/etEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/profile.email" android:maxLines="1" android:minLines="1" android:singleLine="true" android:inputType="textEmailAddress" />
+                </android.support.design.widget.TextInputLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/lytPhone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultPadding" android:layout_marginRight="@dimen/defaultPadding" android:animateLayoutChanges="true">
+                    <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="@string/profile.phone" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tvPhone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="xxx xxx xxxx" />
+                </LinearLayout>
+                <android.support.design.widget.TextInputLayout android:id="@id/tiPhone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="12.0sp" android:id="@id/etPhone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/profile.phone" android:maxLines="1" android:minLines="1" android:ems="10" android:singleLine="true" android:maxLength="10" android:inputType="number" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/bigPadding">
+                <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile.linked" />
+                <TextView android:id="@id/tvSocialNetwork" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/lytEditOpt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <Button android:textColor="@android:color/white" android:layout_gravity="left" android:id="@id/btnCancel" android:background="@drawable/btn_close" android:paddingLeft="@dimen/bigPadding" android:paddingTop="@dimen/defaultMiddlePadding" android:paddingRight="@dimen/bigPadding" android:paddingBottom="@dimen/defaultMiddlePadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultMiddlePadding" android:text="@string/cancel" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <Button android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnAccept" android:background="@drawable/btn_close" android:paddingLeft="@dimen/bigPadding" android:paddingTop="@dimen/defaultMiddlePadding" android:paddingRight="@dimen/bigPadding" android:paddingBottom="@dimen/defaultMiddlePadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:text="@string/accept" android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Button android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnLogout" android:background="@drawable/btn_close" android:paddingLeft="@dimen/bigPadding" android:paddingTop="@dimen/defaultMiddlePadding" android:paddingRight="@dimen/bigPadding" android:paddingBottom="@dimen/defaultMiddlePadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bigPadding" android:text="@string/logout" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

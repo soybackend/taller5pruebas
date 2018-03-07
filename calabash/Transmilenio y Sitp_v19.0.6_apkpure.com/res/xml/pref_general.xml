@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <PreferenceScreen android:title="@string/sign_in" android:key="isAuthenticated" android:summary="@string/login" android:defaultValue="false">
+            <intent android:targetPackage="com.rutasdeautobuses.transmileniositp" android:targetClass="com.rutasdeautobuses.transmileniositp.SignInActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/noAdsVersion" android:key="isPremium" android:summary="@string/deleteAdsYear" android:defaultValue="false">
+            <intent android:targetPackage="com.rutasdeautobuses.transmileniositp" android:targetClass="com.rutasdeautobuses.transmileniositp.PaymentsActivity">
+                <extra android:name="REMOVE_ADS_FOR_YEAR" android:value="true" />
+            </intent>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/preferences.download.sitp" android:key="isImages" android:summary="" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/noticication" android:key="isNotification" android:defaultValue="true" />
+        <PreferenceScreen android:title="@string/preferences.check.update" android:key="updates" android:summary="" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

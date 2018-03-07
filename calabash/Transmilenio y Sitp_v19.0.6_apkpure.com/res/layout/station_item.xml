@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:paddingLeft="@dimen/defaultMiddlePadding" android:paddingTop="2.0dip" android:paddingRight="@dimen/defaultMiddlePadding" android:paddingBottom="@dimen/defaultMiddlePadding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lytEstZonaMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="10.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/tvIdStation" android:layout_width="wrap_content" android:layout_height="12.0dip" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/layoutEstZone" android:layout_width="60.0dip" android:layout_height="50.0dip">
+            <ImageView android:id="@id/imgDefault" android:background="@drawable/items_border" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/txtEstZone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:paddingLeft="@dimen/defaultMiddlePadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:layout_toLeftOf="@id/imgFavorite" android:layout_toRightOf="@id/lytEstZonaMain" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/lytEstName" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="?colorPrimary" android:id="@id/txtEstName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@android:color/black" android:id="@id/txtEstDistancia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" />
+        </LinearLayout>
+        <TextView android:id="@id/txtEstDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/lytEstName" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/lytId" android:background="?colorPrimary" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultMiddlePadding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:alpha="0.7">
+        <TextView android:textSize="9.0sp" android:textColor="@android:color/black" android:id="@id/txtId" android:background="@android:color/white" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="10.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:text="Vagon 1" />
+    </LinearLayout>
+    <ImageView android:id="@id/imgFavorite" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:src="@drawable/favorite_border" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

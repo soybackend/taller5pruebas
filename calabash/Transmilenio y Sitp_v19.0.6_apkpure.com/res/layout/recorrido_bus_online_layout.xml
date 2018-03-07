@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.9">
+        <View android:id="@id/lineView" android:background="@color/dia_bckgrnd" android:layout_width="10.0dip" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/imgTop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/imgCenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/imgBottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="10.0dip" android:textColor="@android:color/black" android:id="@id/txtInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="8.0dip" android:textColor="@android:color/black" android:id="@id/textInfoDown" android:padding="0.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-3.0dip" android:text="453" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.1">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textColor="?colorPrimary" android:id="@id/txtNombreParada" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:text="Nuevo Sol Manzana 29" />
+            <TextView android:id="@id/txtDireccionParada" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:text="Cra. 11 Este / Call. 96" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

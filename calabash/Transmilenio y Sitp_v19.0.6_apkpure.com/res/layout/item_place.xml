@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgHome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" android:src="@drawable/ic_place" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bigPadding" android:layout_marginBottom="@dimen/bigPadding" android:layout_toRightOf="@id/imgHome" android:layout_centerVertical="true">
+        <TextView android:textColor="@android:color/black" android:id="@id/tvPlaceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:text="@string/map.home" />
+        <TextView android:id="@id/tvPlaceAddress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" />
+    </LinearLayout>
+    <ImageView android:id="@id/imgEditPlace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/defaultMiddlePadding" android:src="@drawable/ic_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

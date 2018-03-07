@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lytFrgMain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/toolbarContainer" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip">
+        <include layout="@layout/toolbar" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="2.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/defaultPadding" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:text="@string/taxifare.units" />
+                    <EditText android:textSize="36.0sp" android:gravity="right" android:id="@id/editUnits" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="4" android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/defaultPadding" android:layout_weight="1.0">
+                    <TextView android:textStyle="bold" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:text="@string/taxifare.total" />
+                    <android.support.v7.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" card_view:cardCornerRadius="6.0dip">
+                        <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardTotal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/defaultMiddlePadding">
+                                <TextView android:textSize="36.0sp" android:textColor="@android:color/white" android:id="@id/txtTotal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$5.000" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" />
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textStyle="bold" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:paddingLeft="@dimen/defaultMiddlePadding" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/defaultPadding" android:text="@string/taxifare.surcharges" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="300.0dip" android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView android:layout_gravity="center" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultMiddlePadding" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" card_view:cardCornerRadius="@dimen/defaultMiddlePadding" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardDoor" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardCornerRadius="6.0dip">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+                            <ImageView android:id="@id/imgDoor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/taxi_puerta" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="9.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/taxifare.door" android:layout_below="@id/imgDoor" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:layout_gravity="center" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultMiddlePadding" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" card_view:cardCornerRadius="@dimen/defaultMiddlePadding" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardNight" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardCornerRadius="6.0dip">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+                            <ImageView android:id="@id/imgNight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/taxi_festivo" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/taxifare.night" android:layout_below="@id/imgNight" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" card_view:cardCornerRadius="@dimen/defaultMiddlePadding" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardTerminal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+                            <ImageView android:id="@id/imgTerminal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/taxi_terminal" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/taxifare.terminal" android:layout_below="@id/imgTerminal" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView android:layout_gravity="center" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:layout_marginRight="@dimen/defaultMiddlePadding" android:foreground="?android:selectableItemBackground" android:layout_weight="1.0" card_view:cardCornerRadius="@dimen/defaultMiddlePadding" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardAirport" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardCornerRadius="6.0dip">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+                            <ImageView android:id="@id/imgAirport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/taxi_aeropuerto" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/taxifare.airport" android:layout_below="@id/imgAirport" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/txtDetails" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/defaultPadding" android:text="@string/taxifare.surcharges.detail" />
+            <ImageView android:layout_gravity="center" android:id="@id/imgAd_tax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:src="@drawable/ad_taximetro" android:layout_below="@id/txtDetails" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

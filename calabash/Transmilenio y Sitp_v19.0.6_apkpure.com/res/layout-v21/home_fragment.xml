@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lytFrgMain" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:layout_gravity="center|top" android:id="@id/lytHomeCenter" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:paddingLeft="@dimen/defaultPadding" android:paddingRight="@dimen/defaultPadding" android:paddingBottom="56.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/lytTuLlaveTime" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+            <Button android:textSize="20.0sp" android:textColor="@color/hora_bckgrnd" android:id="@id/btnTuLlaveTime" android:background="@drawable/ic_transfer" android:layout_width="64.0dip" android:layout_height="64.0dip" android:contentDescription="@string/asignar_alarma_transbordos" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/toolbarContainer" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip">
+            <include android:layout_width="fill_parent" android:layout_height="?actionBarSize" layout="@layout/toolbar" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lytEmail" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding">
+        <EditText android:textColor="@android:color/darker_gray" android:gravity="center" android:id="@id/etEmail" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="34.0dip" android:hint="@string/hint_email" android:maxLines="1" android:minLines="1" android:singleLine="true" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:inputType="textEmailAddress" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/lytPhone" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding">
+        <EditText android:textColor="@android:color/darker_gray" android:gravity="center" android:id="@id/etPhone" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="34.0dip" android:hint="@string/hint_phone" android:maxLines="1" android:minLines="1" android:ems="10" android:singleLine="true" android:maxLength="10" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:inputType="number" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lytTerms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding">
+        <CheckBox android:id="@id/checkTerms" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@id/txtTerminos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="@string/terms" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/logo_taxis_libres" />
+    </LinearLayout>
+    <Button android:textColor="@android:color/white" android:layout_gravity="center_horizontal" android:id="@id/btnContinue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnContinue" />
+</LinearLayout>

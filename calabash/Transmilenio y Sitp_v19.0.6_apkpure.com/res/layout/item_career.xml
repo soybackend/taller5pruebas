@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0sp" android:textColor="@android:color/darker_gray" android:id="@id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:text="22/07/16" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/tvDate">
+        <LinearLayout android:orientation="vertical" android:id="@id/lytData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textStyle="bold" android:textColor="@android:color/darker_gray" android:id="@id/tvAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Cra 72B #5B-93 Apto 401" android:layout_toRightOf="@id/lytData" />
+            <TextView android:textSize="10.0sp" android:textColor="@android:color/darker_gray" android:id="@id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Jose Morales" />
+            <TextView android:textSize="10.0sp" android:textColor="@android:color/darker_gray" android:id="@id/tvPlate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VFC 526" />
+            <TextView android:textSize="10.0sp" android:textColor="@android:color/darker_gray" android:id="@id/tvPhone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 3205263214" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

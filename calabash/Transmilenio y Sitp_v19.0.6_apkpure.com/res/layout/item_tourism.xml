@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="?selectableItemBackground" android:padding="4.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/imgLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/imageType" android:background="@drawable/items_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_otros" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:paddingRight="35.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/imgLayout" android:layout_alignParentTop="true">
+        <TextView android:textStyle="bold" android:textColor="@color/home" android:id="@id/txtNameTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Titulo" />
+        <TextView android:textStyle="italic" android:textColor="@color/progress_bckgrnd" android:id="@id/txtDireccion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ak. 10# 4-30" />
+        <TextView android:textColor="@color/progress_bckgrnd" android:id="@id/txtDescripcion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contenido" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:textColor="?colorAccent" android:id="@id/txtPlanearViaje" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/tourism.plan.trip" android:layout_below="@id/linearLayout" android:layout_alignParentRight="true" />
+</RelativeLayout>

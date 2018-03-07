@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lytMap" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/wrapperMap" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <fragment android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.gms.maps.SupportMapFragment"
+                      xmlns:android="http://schemas.android.com/apk/res/android" />
+                    <RelativeLayout android:id="@id/lytAddress" android:background="@color/addressWhiteBckgrnd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_margin="2.0dip">
+                        <TextView android:textColor="@android:color/black" android:gravity="center" android:id="@id/tvAddressMap" android:background="@color/addressBlackBckgrnd" android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="top" android:id="@id/lytAddPlace" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:id="@id/lytName" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/bigPadding" android:layout_marginRight="@dimen/defaultPadding">
+                            <View android:background="@color/divisor_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                            <EditText android:textColorHint="@color/disable" android:id="@id/etName" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/defaultPadding" android:hint="@string/name" android:maxLines="1" android:minLines="1" android:singleLine="true" />
+                            <View android:background="@color/divisor_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="4.0dip" android:layout_marginRight="@dimen/defaultPadding" android:layout_below="@id/lytName">
+                            <View android:background="@color/divisor_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                            <EditText android:textColorHint="@color/disable" android:id="@id/etAddress" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/defaultPadding" android:hint="@string/address.hint" android:maxLines="1" android:minLines="1" android:singleLine="true" android:imeOptions="actionDone" />
+                            <View android:background="@color/divisor_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <ImageButton android:id="@id/imgGps" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/gps_blanco" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="getPosition" android:contentDescription="@string/map.my.location" />
+                    <ImageView android:id="@id/imgPinCenter" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="Center" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnSelectLocation" android:background="@drawable/btn_close" android:paddingLeft="@dimen/defaultMiddlePadding" android:paddingRight="@dimen/defaultMiddlePadding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:text="@string/map.select" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+                    <RelativeLayout android:id="@id/lytOrigen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultPadding" android:layout_marginRight="60.0dip" android:layout_alignParentTop="true">
+                        <LinearLayout android:orientation="vertical" android:background="@color/map_origin_ly_bckgrnd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding">
+                            <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/defaultPadding" android:text="@string/route.start" />
+                            <LinearLayout android:layout_gravity="center_vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bigPadding" android:layout_marginTop="@dimen/defaultPadding" android:layout_marginRight="@dimen/bigPadding" android:layout_marginBottom="@dimen/bigPadding">
+                                <TextView android:id="@id/txtOrigen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding" android:text="@string/route.selected.location" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <ImageView android:id="@id/imgCloseOrigen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/x" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/lytTravel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+        <include android:id="@id/bottomSheet" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="300.0dip" app:behavior_hideable="true" app:behavior_peekHeight="?actionBarSize" app:elevation="4.0dip" app:layout_behavior="com.movilixa.util.BottomSheetBehaviorCustom" layout="@layout/bottom_sheet_map_buses" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

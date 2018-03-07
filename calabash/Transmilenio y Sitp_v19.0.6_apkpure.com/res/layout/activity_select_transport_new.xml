@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/lytMainCoord" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" fab:layout_collapseMode="pin" fab:popupTheme="@style/AppTheme.PopupOverlay">
+                <RelativeLayout android:id="@id/lytOriDes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/defaultPadding" android:layout_marginRight="@dimen/defaultPadding" android:layout_marginBottom="12.0dip">
+                    <RelativeLayout android:id="@id/lytOrigen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip">
+                            <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.2" />
+                            <TextView android:textColor="@color/initCalc" android:gravity="center" android:id="@id/tvOrigen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                        </RelativeLayout>
+                        <ImageView android:id="@id/imgFirst" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:src="@drawable/ic_maps_selected" android:tint="@android:color/white" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <RelativeLayout android:id="@id/lytDestino" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/defaultPadding" android:layout_below="@id/lytOrigen">
+                        <RelativeLayout android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip">
+                            <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.2" />
+                            <TextView android:textColor="@color/initCalc" android:gravity="center" android:id="@id/tvDestino" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:alpha="1.0" />
+                        </RelativeLayout>
+                        <ImageView android:id="@id/imgSecond" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:src="@drawable/ic_station_selected" android:tint="@android:color/white" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    </RelativeLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:src="@drawable/ic_arrow_selected" android:tint="@android:color/white" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/imgExchange" android:paddingLeft="20.0dip" android:paddingRight="4.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_exchange" android:scaleType="fitCenter" android:tint="@android:color/white" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/exchange" />
+                </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/frmOptions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_below="@id/lytDestino">
+                <FrameLayout android:id="@id/frmLines" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/round_corner" android:layout_width="105.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_troncales" android:tint="@color/optionsCalc" />
+                        <TextView android:textSize="8.0sp" android:textColor="@color/optionsCalc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:text="@string/calculate.lines" android:textAllCaps="true" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/frmGoogleMaps" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/round_corner" android:layout_width="105.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_google_maps" android:tint="@color/optionsCalc" />
+                        <TextView android:textSize="8.0sp" android:textColor="@color/optionsCalc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:text="@string/calculate.google" android:textAllCaps="true" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/frmMap" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/round_corner" android:layout_width="105.0dip" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_map_black" android:tint="@color/optionsCalc" />
+                        <TextView android:textSize="8.0sp" android:textColor="@color/optionsCalc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:text="@string/calculate.system" android:textAllCaps="true" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+        <include layout="@layout/content_base_movilixa_select_transport_new" />
+        <include android:id="@id/bottomSheet" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" fab:behavior_hideable="true" fab:behavior_peekHeight="30.0dip" fab:elevation="4.0dip" fab:layout_behavior="com.movilixa.util.BottomSheetBehaviorCustom" layout="@layout/bottom_sheet_select_transport" />
+        <View android:id="@id/shadow" android:background="@drawable/shape_gradient_top_shadow" android:layout_width="fill_parent" android:layout_height="4.0dip" fab:layout_anchor="@id/bottomSheet" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

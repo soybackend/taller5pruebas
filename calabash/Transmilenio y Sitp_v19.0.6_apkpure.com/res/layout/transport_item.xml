@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView android:id="@id/cardTaxiCali" android:layout_width="72.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/defaultMiddlePadding" android:foreground="?android:selectableItemBackground" android:layout_centerHorizontal="true" android:layout_centerVertical="true" card_view:cardCornerRadius="2.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+            <ImageView android:id="@id/imgTransport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_taxi" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="10.0sp" android:textColor="@android:color/darker_gray" android:id="@id/tvTransport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Taxis Libres" android:layout_below="@id/imgTransport" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lytCardReader" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layBalance" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/txtBalanceMsg" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reader.intro" />
+        <ImageView android:id="@id/imgNFC" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/nfc" android:layout_weight="1.0" />
+        <View android:id="@id/line" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/reader.changes" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView" android:focusableInTouchMode="true" android:visibility="gone" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/layBalanceFinal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/lytCard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="34.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="bottom" android:id="@id/txtBalance" android:background="@drawable/tullave_balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bigPadding" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/card_number" android:id="@id/txtCardNumber" android:paddingLeft="4.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/lytInfoPasajes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_below="@id/lytCard">
+                    <TextView android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reader.reaches" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reader.transmilenio" />
+                        <TextView android:textStyle="bold" android:id="@id/txtTm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reader.sitp" />
+                        <TextView android:textStyle="bold" android:id="@id/txtSITP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reader.transfer" />
+                        <TextView android:textStyle="bold" android:id="@id/txtTransbordos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/primaryColor" android:gravity="center_horizontal" android:id="@id/tvMovs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bigPadding" android:text="@string/reader.moves" android:layout_below="@id/lytInfoPasajes" />
+                <com.movilixa.objects.ExpandableHeightListView android:id="@id/hGrid" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:horizontalSpacing="2.0dip" android:numColumns="1" android:layout_below="@id/tvMovs" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

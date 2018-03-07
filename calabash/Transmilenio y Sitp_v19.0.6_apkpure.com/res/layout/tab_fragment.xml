@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/btnMostrarPuntosEst" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:text="Mostrar en Google Maps" />
+    <ListView android:id="@id/list" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:layout_weight="1.0" android:layout_below="@id/btnMostrarPuntosEst" android:smoothScrollbar="true" />
+</RelativeLayout>

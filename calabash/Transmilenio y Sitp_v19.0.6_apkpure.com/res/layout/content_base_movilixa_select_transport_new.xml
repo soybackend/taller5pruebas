@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" android:text="@string/calculate.history" />
+        <View android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <android.support.v7.widget.RecyclerView android:id="@id/listHistory" android:paddingBottom="30.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/oriDesMap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/defaultMiddlePadding">
+        <LinearLayout android:id="@id/lytMap" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <fragment android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.google.android.gms.maps.SupportMapFragment"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/imgFocus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cropfree" />
+            <android.support.design.widget.FloatingActionButton android:id="@id/fabGo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="48.0dip" android:src="@drawable/ic_directions" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

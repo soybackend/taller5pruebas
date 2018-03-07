@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/primaryColor" android:id="@id/txtRecomendacion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginTop="@dimen/defaultMiddlePadding" android:layout_marginBottom="@dimen/defaultMiddlePadding" android:text="Recomendacion" android:layout_centerVertical="true" />
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/lytContentRec" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/tvInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultPadding" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bigPadding" android:layout_marginRight="@dimen/bigPadding" android:layout_marginBottom="@dimen/defaultPadding">
+                <TextView android:textStyle="bold" android:textColor="@color/accentColor" android:id="@id/tvTravel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginRight="@dimen/defaultPadding" android:text="@string/route.start.trip" />
+                <TextView android:textStyle="bold" android:textColor="@color/accentColor" android:id="@id/tvMap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginRight="@dimen/defaultPadding" android:text="@string/route.map" />
+                <TextView android:textStyle="bold" android:textColor="@color/accentColor" android:id="@id/tvShare" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/defaultPadding" android:layout_marginRight="@dimen/defaultPadding" android:text="@string/route.share" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/defaultMiddlePadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lytTroncal" android:background="@drawable/troncal_item_name" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="2.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/txtTroncalName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/txtTroncalDesc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/defaultMiddlePadding" android:text="AutoNorte" />
+</LinearLayout>
